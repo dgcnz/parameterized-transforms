@@ -41,10 +41,10 @@ pytest
 ## Getting Started
 * To understand the structure of parameterized transforms and the details of the package, we recommend the reader to 
 start with 
-[The First Tutorial](https://apple.github.io/parameterized-transforms/tutorials/) 
+[The First Tutorial](https://apple.github.io/parameterized-transforms/tutorials/000-About-the-Package.html) 
 of our
 [Tutorial Series](https://apple.github.io/parameterized-transforms/).
-* However, for a quick starter, check out [Parameterized Transforms in a Nutshell](https://apple.github.io/parameterized-transforms/tutorials/999-In-a-Nutshell.md).
+* However, for a quick starter, check out [Parameterized Transforms in a Nutshell](https://apple.github.io/parameterized-transforms/tutorials/999-In-a-Nutshell.html).
 
 ---
 
