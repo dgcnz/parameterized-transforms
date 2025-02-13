@@ -58,7 +58,7 @@ augmentation_1, empty_params = tx.consume_transform(image, params)
 # empty_params: (), as all params are extracted and used.
 ```
 
-3. You can [write your own transforms](https://pages.github.com/apple/parameterized-transforms/tutorials/002-How-to-Write-Your-Own-Transforms.html) that adhere to the structure of parameterized transforms.
+3. You can [write your own transforms](https://apple.github.io/parameterized-transforms/tutorials/002-How-to-Write-Your-Own-Transforms.html) that adhere to the structure of parameterized transforms.
 Then, your transforms will work seamlessly with those from the package!
 ```python
 import parameterized_transforms.transforms as ptx
@@ -89,4 +89,4 @@ augmentation_1, empty_params = tx.consume_transform(image, params)
 
 4. You can use parameterized transforms with `torch`/`torchvision` dataset directly. 
 However, in order to have parameters output as a single tensor of shape `[batch_size=B, num_params=P]`, we recommend wrapping your transform in `CastParamsToTensor` wrapper.
-More on this in [tutorial on working with torch/torchvision](https://pages.github.com/apple/parameterized-transforms/tutorials/002-How-to-Write-Your-Own-Transforms.html).
+More on this in [tutorial on working with torch/torchvision](https://apple.github.io/parameterized-transforms/tutorials/002-How-to-Write-Your-Own-Transforms.html).

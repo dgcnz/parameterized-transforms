@@ -44,7 +44,7 @@ start with
 [The First Tutorial](https://apple.github.io/parameterized-transforms/tutorials/) 
 of our
 [Tutorial Series](https://apple.github.io/parameterized-transforms/).
-* However, for a quick starter, check out [Parameterized Transforms in a Nutshell](https://pages.github.com/apple/parameterized-transforms/tutorials/999-In-a-Nutshell.md).
+* However, for a quick starter, check out [Parameterized Transforms in a Nutshell](https://apple.github.io/parameterized-transforms/tutorials/999-In-a-Nutshell.md).
 
 ---
 
