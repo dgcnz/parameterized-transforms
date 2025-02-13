@@ -1,0 +1,19 @@
+name: Run tests upon pull request events
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  pre-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      - name: Build package and test dependencies to run unittests suite using pytest
+        run: |
+          pip install -e .
+          pip install -e '.[test]'
+          pytest

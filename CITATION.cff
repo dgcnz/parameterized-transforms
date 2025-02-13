@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Dhekane"
+  given-names: "Eeshan Gunesh"
+  orcid: "https://orcid.org/0009-0006-3026-6258"
+title: "Parameterized Transforms"
+version: 1.0.0
+date-released: 2025-02-15
+url: "https://github.com/apple/parameterized-transforms"
